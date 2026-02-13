@@ -788,9 +788,9 @@ def startup_sequence():
 # ============================================================================
 
 DEFAULT_CONFIG = {
-    "base_url": "https://wims.univ-cotedazur.fr/wims/wims.cgi",
-    "class_id": "8600283",  # Default class ID
-    "class_password": "Gauss2025",
+    "base_url": "http://localhost/",
+    "class_id": "000000", 
+    "class_password": "azerty1234",
     "output_file": "comptes.json",
     "delay_min": 5,
     "delay_max": 15,
